@@ -19,19 +19,6 @@ class OnBoardingScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               // Here is where the widget will build
-              TitleWidget(),
-              Column(
-                children: [
-                  IllustrationWidget(),
-                  CaptionWidget(),
-                  SizedBox(
-                    height: 16.0,
-                  ),
-                  IndicatorWidget(),
-                ],
-              ),
-
-              ButtonWidget(),
             ],
           ),
         ),
